@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style-desktop.css">
   <link rel="stylesheet" href="css/loader.css">
+  <link rel="stylesheet" href="css/legend.css">
 </head>
 
 <body>
@@ -49,6 +50,16 @@
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
+
+  <div id="legend" class="map-legend">
+  <h4>Legend</h4>
+
+  <div><span class="color-box" style="background:#FFA500;"></span> Approximate</div>
+  <div><span class="color-box" style="background:#0000FF;"></span> Verified</div>
+  <div><span class="color-box" style="background:#FFFF00;"></span> Uncertain</div>
+  <br>
+  <div><span style="color:#060606; font-size:18px; font-weight:bold;">#</span> Chapter</div>
+</div>
 
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
